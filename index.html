@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Fitsume T. Wolkeba — Hydrologist & Water Security Researcher</title>
+  <meta name="description" content="Dr. Fitsume Teshome Wolkeba — Postdoctoral Fellow at the University of Texas at Austin. Hydrology, machine learning, remote sensing, and global water security research." />
+  <meta name="author" content="Fitsume T. Wolkeba" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">
+        <span class="nav__mark">FW</span>
+        <span class="nav__name">Fitsume&nbsp;T.&nbsp;Wolkeba</span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__blob hero__blob--1"></div>
+        <div class="hero__blob hero__blob--2"></div>
+      </div>
+      <div class="hero__inner">
+        <p class="hero__eyebrow reveal">Postdoctoral Fellow · The University of Texas at Austin</p>
+        <h1 class="hero__title reveal">
+          Dr.&nbsp;Fitsume&nbsp;T.<br /><span class="grad">Wolkeba</span>
+        </h1>
+        <p class="hero__lede reveal">
+          Hydrologist and water-resources scientist working at the intersection of
+          <strong>large-scale hydrological modeling</strong>, <strong>machine learning</strong>,
+          and <strong>remote sensing</strong> to understand water availability, scarcity,
+          and security in a changing climate.
+        </p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary" href="#publications">View Research</a>
+          <a class="btn btn--ghost" href="https://scholar.google.com/citations?user=K_swzOkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
+        </div>
+        <div class="hero__metrics reveal">
+          <div class="metric">
+            <span class="metric__num" data-count="81">0</span>
+            <span class="metric__label">Citations</span>
+          </div>
+          <div class="metric">
+            <span class="metric__num" data-count="5">0</span>
+            <span class="metric__label">h-index</span>
+          </div>
+          <div class="metric">
+            <span class="metric__num" data-count="3">0</span>
+            <span class="metric__label">i10-index</span>
+          </div>
+          <div class="metric">
+            <span class="metric__num" data-count="15">0</span>
+            <span class="metric__label">Open-source repos</span>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll to content">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section__head reveal">
+        <span class="section__kicker">01 — About</span>
+        <h2 class="section__title">Modeling water for people and the planet</h2>
+      </div>
+      <div class="about">
+        <div class="about__lead reveal">
+          <p>
+            <strong>Fitsume Teshome Wolkeba, Ph.D.</strong> is a Postdoctoral Fellow at the
+            <strong>Bureau of Economic Geology, The University of Texas at Austin</strong>,
+            where he develops data-driven and physically-based approaches to quantify
+            water availability and scarcity across river basins and croplands.
+          </p>
+          <p>
+            His doctoral and postdoctoral research couples <em>global and continental
+            hydrological models</em> with <em>remote sensing</em> and <em>machine learning</em>
+            to address one of the defining challenges of our time: ensuring water security
+            under a shifting climate. He has quantified scarcity vulnerability across
+            331 U.S. river basins, exposed how indicator choice and temporal aggregation
+            distort global scarcity estimates, and mapped crop water consumption worldwide.
+          </p>
+          <p>
+            Before joining UT Austin, Fitsume earned his Ph.D. in Civil, Construction, and
+            Environmental Engineering at the <strong>University of Alabama</strong>, served
+            as a lecturer and practicing hydrologist in Ethiopia, and contributed to national
+            water-prediction efforts as a fellow at the NOAA National Water Center.
+          </p>
+        </div>
+        <aside class="about__card reveal">
+          <h3>At a glance</h3>
+          <ul class="facts">
+            <li><span>Role</span><strong>Postdoctoral Fellow</strong></li>
+            <li><span>Institution</span><strong>UT Austin · Bureau of Economic Geology</strong></li>
+            <li><span>PhD</span><strong>University of Alabama</strong></li>
+            <li><span>BSc / MSc</span><strong>Addis Ababa University</strong></li>
+            <li><span>Focus</span><strong>Hydrology · ML · Remote Sensing</strong></li>
+            <li><span>NSF</span><strong>Water-R2O NRT Trainee</strong></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section class="section section--alt" id="research">
+      <div class="section__head reveal">
+        <span class="section__kicker">02 — Research Interests</span>
+        <h2 class="section__title">Where my work lives</h2>
+        <p class="section__sub">
+          Five connected threads, from the physics of the water cycle to the algorithms
+          that help us see it more clearly.
+        </p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__icon">≈</div>
+          <h3>Hydrology &amp; Water Resources</h3>
+          <p>Large-scale and process-based modeling of the terrestrial water cycle — streamflow, evapotranspiration, and water availability across basins.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">◈</div>
+          <h3>Machine Learning</h3>
+          <p>LSTM and data-driven models for streamflow prediction and data assimilation within next-generation water modeling frameworks.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">⬡</div>
+          <h3>Remote Sensing</h3>
+          <p>Satellite and gridded products for precipitation and evapotranspiration, evaluated for fidelity in continental-scale water budgets.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">⊞</div>
+          <h3>Data Integration</h3>
+          <p>Fusing observations, reanalysis, and model output — building open tooling that makes heterogeneous hydrologic data usable.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">◐</div>
+          <h3>Water Security &amp; Scarcity</h3>
+          <p>Quantifying who is exposed to water scarcity, how robust those estimates are, and how climate change reshapes vulnerability.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">⟁</div>
+          <h3>Water Footprint</h3>
+          <p>Spatially explicit blue and green water consumption of global crop production and its trajectory over time.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="section" id="publications">
+      <div class="section__head reveal">
+        <span class="section__kicker">03 — Selected Publications</span>
+        <h2 class="section__title">Peer-reviewed research</h2>
+        <p class="section__sub">
+          Published in <em>Nature Food</em>, <em>Scientific Reports</em>,
+          <em>Geophysical Research Letters</em>, and the <em>Journal of Hydrology</em>.
+          A full, current list is available on
+          <a href="https://scholar.google.com/citations?user=K_swzOkAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
+        </p>
+      </div>
+
+      <ol class="pubs">
+        <li class="pub reveal">
+          <div class="pub__meta">
+            <span class="pub__year">2025</span>
+            <span class="pub__cites">15 citations</span>
+          </div>
+          <div class="pub__body">
+            <h3>Global spatially explicit crop water consumption shows an overall increase of 9% for 46 agricultural crops from 2010 to 2020</h3>
+            <p class="pub__venue"><em>Nature Food</em>, 6(10)</p>
+            <p class="pub__desc">High-resolution accounting of blue and green water consumption for global crop production, revealing a 9% rise in total crop water use over a decade.</p>
+            <a class="pub__link" href="https://www.nature.com/articles/s43016-025-01231-x" target="_blank" rel="noopener">Read in Nature Food ↗</a>
+          </div>
+        </li>
+
+        <li class="pub reveal">
+          <div class="pub__meta">
+            <span class="pub__year">2025</span>
+            <span class="pub__cites">7 citations</span>
+          </div>
+          <div class="pub__body">
+            <h3>Evaluating the performance of evapotranspiration products for continental-scale water modeling</h3>
+            <p class="pub__venue"><em>Geophysical Research Letters</em>, 52(10)</p>
+            <p class="pub__desc">A comparative assessment of evapotranspiration datasets and their implications for closing the water balance at large scales.</p>
+            <a class="pub__link" href="https://agupubs.onlinelibrary.wiley.com/journal/19448007" target="_blank" rel="noopener">View in GRL ↗</a>
+          </div>
+        </li>
+
+        <li class="pub reveal">
+          <div class="pub__meta">
+            <span class="pub__year">2024</span>
+            <span class="pub__cites">26 citations</span>
+          </div>
+          <div class="pub__body">
+            <h3>Evaluation of gridded precipitation data in water availability modeling in CONUS</h3>
+            <p class="pub__venue"><em>Journal of Hydrology</em>, 628</p>
+            <p class="pub__desc">Quantifies how the choice of gridded precipitation input propagates into water-availability estimates from large-scale hydrologic models, evaluated with Pearson correlation, NSE, percent bias, and Kling–Gupta efficiency.</p>
+            <a class="pub__link" href="https://www.sciencedirect.com/science/article/abs/pii/S0022169423015172" target="_blank" rel="noopener">Read on ScienceDirect ↗</a>
+          </div>
+        </li>
+
+        <li class="pub reveal">
+          <div class="pub__meta">
+            <span class="pub__year">2024</span>
+            <span class="pub__cites">16 citations</span>
+          </div>
+          <div class="pub__body">
+            <h3>Indicator metrics and temporal aggregations introduce ambiguities in water scarcity estimates</h3>
+            <p class="pub__venue"><em>Scientific Reports</em>, 14(1)</p>
+            <p class="pub__desc">Shows that estimates of the global population exposed to water scarcity shift dramatically across 7 scarcity indicators and 11 environmental-flow requirements evaluated at different spatial and temporal resolutions.</p>
+            <a class="pub__link" href="https://www.nature.com/articles/s41598-024-65155-5" target="_blank" rel="noopener">Read in Scientific Reports ↗</a>
+          </div>
+        </li>
+
+        <li class="pub reveal">
+          <div class="pub__meta">
+            <span class="pub__year">2023</span>
+            <span class="pub__cites">9 citations</span>
+          </div>
+          <div class="pub__body">
+            <h3>Examining the water scarcity vulnerability in US river basins due to changing climate</h3>
+            <p class="pub__venue"><em>Geophysical Research Letters</em>, 50(24)</p>
+            <p class="pub__desc">Applies a Budyko-curve framework across 331 contiguous-U.S. river basins, projecting that ~43% face increased scarcity vulnerability under high-emission climate scenarios.</p>
+            <a class="pub__link" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL106004" target="_blank" rel="noopener">Read in GRL ↗</a>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects">
+      <div class="section__head reveal">
+        <span class="section__kicker">04 — Open Source</span>
+        <h2 class="section__title">Tools &amp; code</h2>
+        <p class="section__sub">
+          Open-source hydrology utilities published on
+          <a href="https://github.com/Zprivf" target="_blank" rel="noopener">GitHub (@Zprivf)</a>
+          — built to make hydrologic data easier to acquire, process, and model.
+        </p>
+      </div>
+      <div class="repos">
+        <a class="repo reveal" href="https://github.com/Zprivf/AORC-Downloader" target="_blank" rel="noopener">
+          <div class="repo__top"><span class="repo__lang py">Python</span><span class="repo__stars">★ 3</span></div>
+          <h3>AORC-Downloader</h3>
+          <p>A utility for downloading files and forcing data from the NOAA AORC archive for hydrologic modeling workflows.</p>
+        </a>
+        <a class="repo reveal" href="https://github.com/Zprivf" target="_blank" rel="noopener">
+          <div class="repo__top"><span class="repo__lang nb">Jupyter</span><span class="repo__stars">★ 1</span></div>
+          <h3>NextGen — The Simulators</h3>
+          <p>BMI components and code for data assimilation of USGS streamflow into the NOAA NextGen modeling framework.</p>
+        </a>
+        <a class="repo reveal" href="https://github.com/Zprivf/USGS-Data-Retriever-BMI" target="_blank" rel="noopener">
+          <div class="repo__top"><span class="repo__lang py">Python</span><span class="repo__stars">★ 1</span></div>
+          <h3>USGS-Data-Retriever-BMI</h3>
+          <p>A Basic Model Interface (BMI) component that retrieves USGS streamflow data directly from the NWIS web service.</p>
+        </a>
+        <a class="repo reveal" href="https://github.com/Zprivf" target="_blank" rel="noopener">
+          <div class="repo__top"><span class="repo__lang js">GEE</span><span class="repo__stars">★ 1</span></div>
+          <h3>Aridity-Index-Mapper</h3>
+          <p>A Google Earth Engine application that maps the aridity index of HUC06 basins from remote-sensing inputs.</p>
+        </a>
+        <a class="repo reveal" href="https://github.com/Zprivf" target="_blank" rel="noopener">
+          <div class="repo__top"><span class="repo__lang py">Python</span><span class="repo__stars">★ 1</span></div>
+          <h3>SCS-CN ArcGIS Pro Toolbox</h3>
+          <p>An ArcGIS Pro toolbox implementing the SCS Curve Number method for runoff estimation from land cover and soils.</p>
+        </a>
+        <a class="repo reveal" href="https://github.com/Zprivf" target="_blank" rel="noopener">
+          <div class="repo__top"><span class="repo__lang nb">Jupyter</span><span class="repo__stars">fork</span></div>
+          <h3>LSTM Streamflow</h3>
+          <p>Work on long short-term memory (LSTM) models for rainfall–runoff prediction, building on the NOAA-OWP LSTM project.</p>
+        </a>
+      </div>
+      <div class="repos__cta reveal">
+        <a class="btn btn--ghost" href="https://github.com/Zprivf" target="_blank" rel="noopener">See all repositories on GitHub ↗</a>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section__head reveal">
+        <span class="section__kicker">05 — Experience &amp; Education</span>
+        <h2 class="section__title">A path through water</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl reveal">
+          <div class="tl__dot"></div>
+          <div class="tl__content">
+            <span class="tl__date">Present</span>
+            <h3>Postdoctoral Fellow</h3>
+            <p class="tl__org">Bureau of Economic Geology · The University of Texas at Austin</p>
+            <p>Advancing data-driven hydrologic science on water availability, scarcity, and security across basins and croplands.</p>
+          </div>
+        </div>
+        <div class="tl reveal">
+          <div class="tl__dot"></div>
+          <div class="tl__content">
+            <span class="tl__date">Recent</span>
+            <h3>Postdoctoral Researcher</h3>
+            <p class="tl__org">The University of Alabama</p>
+            <p>Continued research on global water footprint, scarcity indicators, and continental-scale hydrologic modeling.</p>
+          </div>
+        </div>
+        <div class="tl reveal">
+          <div class="tl__dot"></div>
+          <div class="tl__content">
+            <span class="tl__date">2022</span>
+            <h3>Summer Fellow</h3>
+            <p class="tl__org">NOAA National Water Center Innovators Program · Summer Institute</p>
+            <p>Collaborated on next-generation national water prediction, contributing BMI tooling and data-assimilation methods.</p>
+          </div>
+        </div>
+        <div class="tl reveal">
+          <div class="tl__dot"></div>
+          <div class="tl__content">
+            <span class="tl__date">Ph.D.</span>
+            <h3>Civil, Construction &amp; Environmental Engineering</h3>
+            <p class="tl__org">The University of Alabama · NSF Water-R2O NRT Trainee</p>
+            <p>Doctoral research employing global hydrological modeling to evaluate water footprint and scarcity.</p>
+          </div>
+        </div>
+        <div class="tl reveal">
+          <div class="tl__dot"></div>
+          <div class="tl__content">
+            <span class="tl__date">Earlier</span>
+            <h3>Lecturer &amp; Hydrologist</h3>
+            <p class="tl__org">Addis Ababa University &amp; engineering projects · Ethiopia</p>
+            <p>Taught civil and environmental engineering and practiced as a hydrologist on water-resources projects.</p>
+          </div>
+        </div>
+        <div class="tl reveal">
+          <div class="tl__dot"></div>
+          <div class="tl__content">
+            <span class="tl__date">B.Sc. / M.Sc.</span>
+            <h3>Civil &amp; Environmental Engineering</h3>
+            <p class="tl__org">Addis Ababa University · Ethiopia</p>
+            <p>Foundational training in engineering and water resources.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collaborators -->
+    <section class="section section--alt" id="collaborators">
+      <div class="section__head reveal">
+        <span class="section__kicker">06 — Collaboration</span>
+        <h2 class="section__title">Frequent co-authors</h2>
+      </div>
+      <ul class="collab reveal">
+        <li>Mesfin Mergia Mekonnen</li>
+        <li>Mukesh Kumar</li>
+        <li>Kate Brauman</li>
+        <li>Fred L. Ogden</li>
+        <li>Jonathan M. Frame</li>
+        <li>Zachariah Butler</li>
+        <li>Kenneth Ekpetere</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="contact__inner reveal">
+        <span class="section__kicker">07 — Contact</span>
+        <h2 class="section__title">Let's talk water</h2>
+        <p class="contact__lede">
+          Open to collaboration on hydrology, water security, machine learning for the
+          water cycle, and remote-sensing applications.
+        </p>
+        <div class="contact__links">
+          <a href="mailto:fitsume.wolkeba@beg.utexas.edu" class="contact__link">
+            <span>Email</span>fitsume.wolkeba@beg.utexas.edu
+          </a>
+          <a href="https://scholar.google.com/citations?user=K_swzOkAAAAJ&hl=en" target="_blank" rel="noopener" class="contact__link">
+            <span>Google Scholar</span>K_swzOkAAAAJ
+          </a>
+          <a href="https://github.com/Zprivf" target="_blank" rel="noopener" class="contact__link">
+            <span>GitHub</span>@Zprivf
+          </a>
+          <a href="https://www.linkedin.com/in/fitsume-teshome-w/" target="_blank" rel="noopener" class="contact__link">
+            <span>LinkedIn</span>fitsume-teshome-w
+          </a>
+          <a href="https://www.beg.utexas.edu/people/fitsume-wolkeba" target="_blank" rel="noopener" class="contact__link">
+            <span>UT Austin</span>Bureau of Economic Geology
+          </a>
+          <a href="https://www.researchgate.net/profile/Fitsume-Teshome-Wolkeba" target="_blank" rel="noopener" class="contact__link">
+            <span>ResearchGate</span>Fitsume-Teshome-Wolkeba
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Fitsume Teshome Wolkeba, Ph.D. · Hydrology &amp; Water Security Research</p>
+    <p class="footer__note">Built to showcase peer-reviewed research and open-source hydrology tooling.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
